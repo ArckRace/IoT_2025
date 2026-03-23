@@ -370,6 +370,493 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Photo"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Photo"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photoresistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable light sensitive opto LDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LDR* R?LDR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Photo_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -4.064 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -4.064 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -2.286 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Photo_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -520,7 +1007,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC327"
+		(symbol "Transistor_BJT:BC556"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -537,7 +1024,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC327"
+			(property "Value" "BC556"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -557,7 +1044,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -567,7 +1054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(property "Description" "0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -594,7 +1081,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC327_0_1"
+			(symbol "BC556_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -667,7 +1154,7 @@
 					)
 				)
 			)
-			(symbol "BC327_1_1"
+			(symbol "BC556_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -727,14 +1214,170 @@
 		)
 	)
 	(junction
-		(at 127 124.46)
+		(at 86.36 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9c92a6d-6abf-4d24-9250-98d66983029f")
+		(uuid "16811db3-739e-42f2-8a16-aca7b84efba4")
+	)
+	(junction
+		(at 147.32 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bb1a5ed-ad84-413a-8268-e2f6a22bf42d")
+	)
+	(junction
+		(at 158.75 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ccce826-a9df-4209-a0d4-2bfb2a37ac9e")
+	)
+	(junction
+		(at 76.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4e348e-435a-420d-b100-60d0537e9596")
+	)
+	(junction
+		(at 135.89 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1cbd376-9f53-4f63-99cc-28f0e4288e44")
+	)
+	(junction
+		(at 86.36 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c808df8f-4bba-4702-b86e-310c65f9fcbf")
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd6250a2-7123-47cb-86d9-fca2540b6422")
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 127 76.2)
+			(xy 76.2 111.76) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045f8bb7-b858-4b3b-9ebe-462ad691478b")
+	)
+	(wire
+		(pts
+			(xy 49.53 100.33) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058ef8ea-6400-4485-9413-3c65592fcfcb")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9a5d43-f3c1-4625-b0e7-60905dd8d764")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10be014c-446c-4c19-983c-b0866731eee2")
+	)
+	(wire
+		(pts
+			(xy 49.53 74.93) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126b9453-6c69-4eb1-8cb1-0aa0db599894")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3089c3-d980-4b8d-8793-e11987437fe9")
+	)
+	(wire
+		(pts
+			(xy 135.89 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d1c382-287b-4446-9c86-f73d5820c800")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 135.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215634f3-ff63-476b-9d8d-f624179c417a")
+	)
+	(wire
+		(pts
+			(xy 135.89 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a75d2b-4d8e-4361-aa28-e7aac1c1c563")
+	)
+	(wire
+		(pts
+			(xy 135.89 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300e9979-f58d-4873-a55a-787a5d835b4a")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3329b193-40a0-4fa6-a3cd-34731b7a7289")
+	)
+	(wire
+		(pts
+			(xy 158.75 86.36) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39edb4e6-56fa-42a5-968d-c540483fe7b0")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 86.36 67.31)
 		)
 		(stroke
 			(width 0)
@@ -744,7 +1387,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 95.25) (xy 127 104.14)
+			(xy 74.93 100.33) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d23f910-181e-4adb-9fb3-8bfb0270bd13")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 86.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -754,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 139.7 76.2)
+			(xy 99.06 105.41) (xy 99.06 67.31)
 		)
 		(stroke
 			(width 0)
@@ -764,17 +1417,117 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 124.46) (xy 127 124.46)
+			(xy 175.26 114.3) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a91794d-c8cd-47ad-8632-bf78814063ad")
+		(uuid "4b09283e-ab5a-4ade-aed3-270e98fbe907")
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 127 124.46)
+			(xy 147.32 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553233d2-b9b6-4b3b-82e0-a3fb21dfd5c6")
+	)
+	(wire
+		(pts
+			(xy 76.2 100.33) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e501af8-a50d-4351-a4ad-7466ec045bc8")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c14a05-dd47-4c0f-93cb-25c9deafeb5c")
+	)
+	(wire
+		(pts
+			(xy 175.26 69.85) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ff2ee3-8d6b-4313-8d63-1b935e93d9b5")
+	)
+	(wire
+		(pts
+			(xy 76.2 100.33) (xy 78.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb17a79-5873-41f8-bd65-1cfabfa5b2ba")
+	)
+	(wire
+		(pts
+			(xy 135.89 78.74) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921c8ece-6c8f-4fa2-8717-2f9787382519")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c7a381-df93-4fc1-9716-69008c66bcdb")
+	)
+	(wire
+		(pts
+			(xy 63.5 100.33) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6ef206-8798-434a-8ba5-8ff945882c46")
+	)
+	(wire
+		(pts
+			(xy 158.75 76.2) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a56a7a-f132-4b04-9bb6-da848057e30d")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c43151-8b61-4a7a-8c58-875c6112287a")
+	)
+	(wire
+		(pts
+			(xy 86.36 105.41) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
@@ -784,27 +1537,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 109.22) (xy 101.6 109.22)
+			(xy 135.89 110.49) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1291c2a-c311-4253-b452-fc8a60813b6b")
+		(uuid "b22b9fb5-26d1-4652-866d-a0efc4246999")
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 119.38 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b27b7044-3b7f-477d-918b-2741629a5c68")
-	)
-	(wire
-		(pts
-			(xy 127 76.2) (xy 127 85.09)
+			(xy 86.36 67.31) (xy 86.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -814,17 +1557,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 88.9 109.22)
+			(xy 76.2 115.57) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8d944a4-adc1-4a6f-9cd0-5f977b14f5cb")
+		(uuid "e25032ef-2081-4a03-aaa8-7ddd8fe0a334")
 	)
 	(wire
 		(pts
-			(xy 127 124.46) (xy 139.7 124.46)
+			(xy 86.36 115.57) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -832,18 +1575,28 @@
 		)
 		(uuid "ed905107-c84b-43b7-9503-6c2a0c5b4d33")
 	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ecaec5-12c0-4dff-aecd-ad2a758c063c")
+	)
 	(symbol
-		(lib_id "Transistor_BJT:BC327")
-		(at 124.46 109.22 0)
+		(lib_id "Device:R_Photo")
+		(at 135.89 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a0f2499-64c3-40af-902e-0be7239af1d2")
-		(property "Reference" "Q1"
-			(at 129.54 107.9499 0)
+		(uuid "1ad22177-2a2c-4dcd-831d-6ecddd7067c9")
+		(property "Reference" "R5"
+			(at 138.43 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,8 +1604,79 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC327"
-			(at 129.54 110.4899 0)
+		(property "Value" "R_Photo"
+			(at 138.43 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photoresistor"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a59ce7c2-586b-42fe-9176-6d4c034140ad")
+		)
+		(pin "2"
+			(uuid "e7adac0f-e974-4a33-82b0-a46719e53a56")
+		)
+		(instances
+			(project ""
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC556")
+		(at 156.21 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2743a291-de0b-4e46-a00a-103d9bf930d1")
+		(property "Reference" "Q1"
+			(at 161.29 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC556"
+			(at 161.29 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +1685,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 129.54 111.125 0)
+			(at 161.29 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,8 +1695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
-			(at 124.46 109.22 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(at 156.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,8 +1705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
-			(at 124.46 109.22 0)
+		(property "Description" "0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"
+			(at 156.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,17 +1714,17 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "44834cf0-a37b-4d51-ae9c-323852db8ff6")
-		)
 		(pin "1"
-			(uuid "0e4f9af3-b309-44b2-9776-baa9e8bcbeda")
+			(uuid "9cd95a95-15be-4072-b2a0-8e3282dbe8f4")
 		)
 		(pin "3"
-			(uuid "485033ce-225b-4691-a724-a491b13ff74a")
+			(uuid "e88eb21f-5911-4767-923a-02d74a8ff6c1")
+		)
+		(pin "2"
+			(uuid "af5c20da-ad47-4a2a-9677-9aa5b86d5a0e")
 		)
 		(instances
-			(project ""
+			(project "4_lesson"
 				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
 					(reference "Q1")
 					(unit 1)
@@ -909,35 +1733,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 139.7 119.38 180)
+		(lib_id "Device:Lamp")
+		(at 158.75 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b21574c-2071-4c35-b6f9-0aac35e29d05")
-		(property "Reference" "BT1"
-			(at 143.51 118.6814 0)
+		(uuid "4877d02d-140e-41cc-bad2-41faf489af7c")
+		(property "Reference" "LA2"
+			(at 162.56 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "12V"
-			(at 143.51 121.2214 0)
+		(property "Value" "Lamp"
+			(at 162.56 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 120.904 90)
+			(at 158.75 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +1770,215 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 120.904 90)
+			(at 158.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Lamp"
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "485e606c-6c38-4a15-90d5-6538541d6b25")
+		)
+		(pin "1"
+			(uuid "cd0877e0-01b3-4cb6-b55f-6fdcc70bd44d")
+		)
+		(instances
+			(project "4_lesson"
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "LA2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d4da3ab-4d98-420b-9dad-ab7cc8fcdb9d")
+		(property "Reference" "R2"
+			(at 78.74 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33k"
+			(at 78.74 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.978 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0373f39c-f30b-4226-a4d3-2767d81bd7ad")
+		)
+		(pin "2"
+			(uuid "d0a0b593-f4f2-43ad-aeee-be9e27201790")
+		)
+		(instances
+			(project "4_lesson"
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8783a221-ede2-41e9-9911-2715435a59f6")
+		(property "Reference" "R1"
+			(at 71.12 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 71.12 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff91fcad-3394-4579-8567-6fce50313869")
+		)
+		(pin "2"
+			(uuid "a9ae4369-a275-476a-a8ff-f688a7e9402a")
+		)
+		(instances
+			(project ""
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 99.06 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b21574c-2071-4c35-b6f9-0aac35e29d05")
+		(property "Reference" "BT1"
+			(at 102.87 109.7914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V"
+			(at 102.87 112.3314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +1987,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 139.7 119.38 0)
+			(at 99.06 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,17 +2011,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery")
-		(at 88.9 119.38 180)
+		(lib_id "Device:R_Potentiometer")
+		(at 135.89 74.93 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97870469-5507-4600-91df-eef028f4fb6e")
-		(property "Reference" "BT2"
-			(at 92.71 118.6814 0)
+		(uuid "9234b836-3f53-4bef-987c-33fcc9f23c2e")
+		(property "Reference" "RV1"
+			(at 133.35 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,8 +2029,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 92.71 121.2214 0)
+		(property "Value" "R_Potentiometer"
+			(at 133.35 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +2039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 120.904 90)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +2048,80 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 120.904 90)
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ecfdc7b-d4f0-4ffc-aa52-f0fab02a4403")
+		)
+		(pin "1"
+			(uuid "e7a128a4-7eb7-4831-9a83-59949e1b4612")
+		)
+		(pin "2"
+			(uuid "5e961ea0-f552-4789-b878-441395670f3a")
+		)
+		(instances
+			(project ""
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 49.53 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97870469-5507-4600-91df-eef028f4fb6e")
+		(property "Reference" "BT2"
+			(at 53.34 79.3114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 53.34 81.8514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +2130,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 88.9 119.38 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,17 +2154,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Lamp")
-		(at 127 90.17 0)
+		(lib_id "Transistor_BJT:BC556")
+		(at 83.82 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd239c4f-2d09-47f0-bf9a-6fb0506638e1")
-		(property "Reference" "LA1"
-			(at 130.81 88.8999 0)
+		(uuid "b3f7d4c8-2241-4dd4-a533-56f10f1a9c48")
+		(property "Reference" "Q2"
+			(at 88.9 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,17 +2172,93 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lamp"
-			(at 130.81 91.4399 0)
+		(property "Value" "BC556"
+			(at 88.9 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92"
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11e1888d-81bb-4936-9fe7-b167035d20a1")
+		)
+		(pin "3"
+			(uuid "8c221fa2-cd75-41a6-a947-93cf26d389ba")
+		)
+		(pin "2"
+			(uuid "327ba010-46e0-448a-94f6-623f3da8df3d")
+		)
+		(instances
+			(project ""
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 175.26 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b529baf9-04a9-40ce-a303-7eeb254995ff")
+		(property "Reference" "BT4"
+			(at 179.07 98.3614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V"
+			(at 179.07 100.9014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 127 87.63 90)
+			(at 175.26 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +2267,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 87.63 90)
+			(at 175.26 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10092a12-f914-4db6-8d0b-908d819c7fab")
+		)
+		(pin "2"
+			(uuid "576854e9-7add-4049-a602-f3f372814750")
+		)
+		(instances
+			(project "4_lesson"
+				(path "/8c794fa6-e6f0-4d56-9d41-04670bbeba5d"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Lamp")
+		(at 86.36 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd239c4f-2d09-47f0-bf9a-6fb0506638e1")
+		(property "Reference" "LA1"
+			(at 90.17 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lamp"
+			(at 90.17 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +2346,7 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 127 90.17 0)
+			(at 86.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +2371,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 106.68 109.22 0)
+		(at 58.42 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1129,7 +2380,7 @@
 		(fields_autoplaced yes)
 		(uuid "eda1c0ba-314e-4398-9da5-fb119d9c04d0")
 		(property "Reference" "SW1"
-			(at 106.68 101.6 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +2388,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 106.68 104.14 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +2396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 104.14 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +2405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 104.14 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +2414,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 106.68 109.22 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

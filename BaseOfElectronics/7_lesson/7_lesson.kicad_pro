@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "4_lesson.kicad_pro",
+    "filename": "7_lesson.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -365,7 +365,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Обозначение"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -395,16 +395,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -417,7 +409,7 @@
   },
   "sheets": [
     [
-      "8c794fa6-e6f0-4d56-9d41-04670bbeba5d",
+      "28d98f21-ce19-4d8e-89e3-22057e55d13d",
       "Root"
     ]
   ],
